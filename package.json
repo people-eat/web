@@ -9,6 +9,8 @@
     },
     "license": "UNLICENSED",
     "scripts": {
+        "format": "prettier --write .",
+        "format:check": "prettier --check .",
         "spell:check": "cspell . --no-progress"
     },
     "private": true,
@@ -19,6 +21,7 @@
         "@types/node": "^20.4.8",
         "cspell": "^6.31.2",
         "nx": "^16.6.0",
+        "prettier": "^3.0.1",
         "tslib": "^2.6.1",
         "typescript": "^5.1.6",
         "webpack": "^5.88.2"
