@@ -8,13 +8,16 @@
         "url": "https://github.com/people-eat/web/issues"
     },
     "license": "UNLICENSED",
-    "scripts": {},
+    "scripts": {
+        "spell:check": "cspell . --no-progress"
+    },
     "private": true,
     "devDependencies": {
         "@babel/core": "^7.22.10",
         "@nx/js": "^16.6.0",
         "@nx/workspace": "^16.6.0",
         "@types/node": "^20.4.8",
+        "cspell": "^6.31.2",
         "nx": "^16.6.0",
         "tslib": "^2.6.1",
         "typescript": "^5.1.6",
