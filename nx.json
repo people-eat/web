@@ -22,5 +22,21 @@
     "workspaceLayout": {
         "appsDir": "packages",
         "libsDir": "packages"
+    },
+    "generators": {
+        "@nx/react": {
+            "application": {
+                "babel": true
+            },
+            "library": {
+                "unitTestRunner": "jest"
+            }
+        },
+        "@nx/next": {
+            "application": {
+                "style": "css",
+                "linter": "eslint"
+            }
+        }
     }
 }
