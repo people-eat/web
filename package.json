@@ -1,0 +1,25 @@
+{
+    "name": "@people-eat/web",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/people-eat/web.git"
+    },
+    "bugs": {
+        "url": "https://github.com/people-eat/web/issues"
+    },
+    "license": "UNLICENSED",
+    "scripts": {},
+    "private": true,
+    "devDependencies": {
+        "@babel/core": "^7.22.10",
+        "@nx/js": "^16.6.0",
+        "@nx/workspace": "^16.6.0",
+        "nx": "^16.6.0",
+        "tslib": "^2.6.1",
+        "typescript": "^5.1.6",
+        "webpack": "^5.88.2"
+    },
+    "workspaces": [
+        "packages/*"
+    ]
+}
