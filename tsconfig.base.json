@@ -15,6 +15,7 @@
         "skipDefaultLibCheck": true,
         "baseUrl": ".",
         "paths": {
+            "@people-eat/web-components": ["packages/web-components/src/index.ts"],
             "@people-eat/web-utils": ["packages/web-utils/src/index.ts"]
         }
     },

@@ -1,9 +1,9 @@
 {
-    "name": "@people-eat/web-app-next",
+    "name": "@people-eat/web-components",
     "repository": {
         "type": "git",
         "url": "https://github.com/people-eat/web.git",
-        "directory": "packages/web-app-next"
+        "directory": "packages/web-components"
     },
     "bugs": {
         "url": "https://github.com/people-eat/web/issues"
@@ -11,15 +11,19 @@
     "license": "UNLICENSED",
     "private": true,
     "version": "0.0.0",
+    "main": "./index.js",
+    "types": "./index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./index.mjs",
+            "require": "./index.js"
+        }
+    },
     "dependencies": {
-        "next": "13.4.1",
         "react": "18.2.0",
-        "react-dom": "18.2.0",
-        "@people-eat/web-components": "*",
-        "@people-eat/web-utils": "*"
+        "react-dom": "18.2.0"
     },
     "devDependencies": {
-        "@nx/next": "^16.6.0",
         "@testing-library/react": "14.0.0"
     }
 }
