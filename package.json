@@ -18,11 +18,13 @@
     "private": true,
     "devDependencies": {
         "@babel/core": "^7.22.10",
+        "@babel/preset-react": "^7.22.5",
         "@nx/eslint-plugin": "^16.6.0",
         "@nx/js": "^16.6.0",
         "@nx/linter": "^16.6.0",
         "@nx/node": "^16.6.0",
         "@nx/react": "^16.6.0",
+        "@nx/vite": "16.6.0",
         "@nx/web": "^16.6.0",
         "@nx/webpack": "16.6.0",
         "@nx/workspace": "^16.6.0",
@@ -31,6 +33,9 @@
         "@types/react-dom": "^18.2.7",
         "@typescript-eslint/eslint-plugin": "^6.3.0",
         "@typescript-eslint/parser": "^6.3.0",
+        "@vitejs/plugin-react": "^4.0.4",
+        "@vitest/ui": "^0.32.4",
+        "babel-jest": "^29.6.2",
         "cspell": "^6.31.2",
         "eslint": "^8.46.0",
         "eslint-config-next": "^13.4.13",
@@ -43,6 +48,9 @@
         "prettier": "^3.0.1",
         "tslib": "^2.6.1",
         "typescript": "^5.1.6",
+        "vite": "^4.4.9",
+        "vite-plugin-dts": "^2.3.0",
+        "vitest": "^0.32.4",
         "webpack": "^5.88.2"
     },
     "workspaces": [
