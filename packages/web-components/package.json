@@ -20,18 +20,27 @@
         }
     },
     "dependencies": {
+        "@emotion/react": "^11.10.6",
+        "@emotion/styled": "^11.10.6",
+        "@mui/base": "^5.0.0-alpha.126",
+        "@mui/icons-material": "^5.11.16",
+        "@mui/material": "^5.11.14",
+        "@mui/system": "^5.12.1",
+        "@mui/x-date-pickers": "^6.10.0",
+        "mui-tel-input": "^3.1.3",
         "react": "18.2.0",
-        "react-dom": "18.2.0"
+        "react-dom": "18.2.0",
+        "react-material-ui-carousel": "^3.4.2"
     },
     "devDependencies": {
         "@nx/storybook": "16.6.0",
-        "@testing-library/react": "14.0.0",
         "@storybook/addon-essentials": "^7.2.1",
         "@storybook/addon-interactions": "^7.2.1",
         "@storybook/core-server": "^7.2.1",
         "@storybook/jest": "^0.1.0",
         "@storybook/react-vite": "^7.2.1",
         "@storybook/test-runner": "^0.11.0",
-        "@storybook/testing-library": "^0.2.0"
+        "@storybook/testing-library": "^0.2.0",
+        "@testing-library/react": "14.0.0"
     }
 }
